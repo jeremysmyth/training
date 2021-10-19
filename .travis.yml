@@ -1,7 +1,9 @@
-language: java 
+language: java
 jdk: openjdk14
-notifications: 
-  email: 
+cache:
+  directories: $HOME/.m2
+notifications:
+  email:
     recipients: gareth.miskimmin@kainos.com
-    on_failure: always 
+    on_failure: always
     on_success: never
