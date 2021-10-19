@@ -6,4 +6,3 @@ notifications:
   email: 
     recipients: louie.brown@kanios.com 
     on_failure: always 
-    on_success: never
